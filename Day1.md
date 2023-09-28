@@ -32,5 +32,5 @@ props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
 props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, KafkaAvroSerializer.class);
 props.put(AbstractKafkaSchemaSerDeConfig.SCHEMA_REGISTRY_URL_CONFIG, "http://localhost:8081");
         
-final KafkaProducer<String, Student> producer = new KafkaProducer<>(props);
+final KafkaProducer<String, Order> producer = new KafkaProducer<>(props);
 ```
