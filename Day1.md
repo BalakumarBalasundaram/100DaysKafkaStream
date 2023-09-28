@@ -17,4 +17,9 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 
 var producer = new KafkaProducer<String, String>(Utils.producerConfig);
+ for (int i = 0; i < 2; i++) {
+            producer.send(new ProducerRecord<>("topic1", Integer.toString(i), Integer.toString(i)));
+}
+
+producer.close();
 ```
