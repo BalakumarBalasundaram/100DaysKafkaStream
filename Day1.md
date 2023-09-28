@@ -23,3 +23,13 @@ var producer = new KafkaProducer<String, String>(Utils.producerConfig);
 
 producer.close();
 ```
+
+### Kafka Avro Producer & Producer Record
+Properties props = new Properties();
+        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "http://localhost:19092");
+        props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
+        props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, KafkaAvroSerializer.class);
+        props.put(AbstractKafkaSchemaSerDeConfig.SCHEMA_REGISTRY_URL_CONFIG, "http://localhost:8081");
+
+        //2 - Создать Producer с соответствующими типами key и value
+        final KafkaProducer<String, Student> producer = new KafkaProducer<>(props);
