@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/100DaysKafkaStream.iml" filepath="$PROJECT_DIR$/.idea/100DaysKafkaStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day2/customapp/customapp.iml" filepath="$PROJECT_DIR$/Day2/customapp/customapp.iml" />
     </modules>
   </component>
 </project>
