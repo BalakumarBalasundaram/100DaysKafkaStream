@@ -102,9 +102,9 @@ public class Utils {
     }
 
     public static void sendMessages(int keyFrom, int keyTo, String topic, Integer partition) {
-        try (KafkaProducer producer = new KafkaProducer<String, String>(Utils.producerConfig)) {
+        try (KafkaProducer<String, String> producer = new KafkaProducer<String, String>(Utils.producerConfig)) {
             for (int i = keyFrom; i < keyTo; i++) {
-                producer.send(new ProducerRecord<>(topic, partition, Integer.toString(i),
+                producer.send(new ProducerRecord<String, String>(topic, partition, Integer.toString(i),
                         Utils.someLongMessage));
             }
             producer.flush();
