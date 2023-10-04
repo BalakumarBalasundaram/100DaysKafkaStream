@@ -31,3 +31,31 @@ mvn archetype:generate -DgroupId=com.learn.app -DartifactId=customapp -Darchetyp
     </dependency>
   </dependencies>
 ```  
+
+
+### Added Maven Plugins
+
+```xml
+<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-compiler-plugin</artifactId>
+  <configuration>
+      <source>9</source>
+      <target>9</target>
+  </configuration>
+</plugin>
+```
+
+### Added Additional dependencies
+
+```xml
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+</dependency>
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.10.1</version>
+</dependency>
+```
