@@ -24,7 +24,7 @@ json schema 2 pojo
 class AppSerdes extends Serdes {
 
  static final class OrderSerde extends WrapperSerde<Order> {
-        OrderSerde() {
+    OrderSerde() {
             super(new JsonSerializer<>(), new JsonDeserializer<>());
         }
     }
