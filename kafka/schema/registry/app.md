@@ -1,1 +1,1 @@
-vnd.schemaregistry.v1+json
+search: vnd.schemaregistry.v1+json
