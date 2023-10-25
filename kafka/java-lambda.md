@@ -18,3 +18,4 @@ References:
 https://github.com/divitngoc/spring-boot-simple-rest-api/tree/master
 https://github.com/namvdo/lambdas-and-streams-best-practices
 https://github.com/RameshMF/java-8-tutorial/tree/master
+https://github.com/deepcloudlabs/stream-api-exercises-part3/tree/master
