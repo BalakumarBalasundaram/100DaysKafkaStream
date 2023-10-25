@@ -102,3 +102,7 @@ https://github.com/iproduct/course-ml/tree/main
 https://github.com/m1key/streams-starter-project
 https://github.com/kafka-learn/kafka-doc/tree/master
 https://github.com/aashutoshjha1/tech_summary/blob/master/tech-summary/tools/kafka_index.md
+
+
+streams producer
+https://github.com/ldeck/kafka-streams-101/tree/main
