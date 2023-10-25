@@ -92,3 +92,13 @@ class AppSerdes extends Serdes {
         ).toStream().foreach(
                 (k,v) -> System.out.println("Key = " + k + " Value = " + v.toString())
         );
+
+References:
+https://github.com/hschaffner/TransactionSamples/tree/main
+Java Samples Comparing Confluent Exactly-Once Transactions with JMS Session Transactions
+https://github.com/lalitrnagpal/kafka-streams
+https://github.com/rogervinas/spring-cloud-stream-kafka-streams-first-steps
+https://github.com/iproduct/course-ml/tree/main
+https://github.com/m1key/streams-starter-project
+https://github.com/kafka-learn/kafka-doc/tree/master
+https://github.com/aashutoshjha1/tech_summary/blob/master/tech-summary/tools/kafka_index.md
