@@ -1,4 +1,36 @@
+
+Dependencies
+
+ <dependencies>
+        <!-- Apache Kafka Clients-->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>${kafka.version}</version>
+        </dependency>
+        <!-- Apache Kafka Streams-->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-streams</artifactId>
+            <version>${kafka.version}</version>
+        </dependency>
+        <!-- Apache Log4J2 binding for SLF4J -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+
+        <!--Apache commons-->
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
+    </dependencies>
+    
 json schema 2 pojo
+
 
 <plugin>
                 <groupId>org.jsonschema2pojo</groupId>
