@@ -12,3 +12,7 @@ Arithmatic addable = new Arithmatic() {
 
 		// Lambda expression without return keyword.
 		Arithmatic withLambda = (a, b) -> (a + b);
+
+
+References:
+https://github.com/divitngoc/spring-boot-simple-rest-api/tree/master
