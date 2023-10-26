@@ -32,7 +32,7 @@ public class OrderRunnableApp implements Runnable {
        
         //Setup Kafka Producer
         Properties kafkaProps = new Properties();
-        kafkaProps.put("bootstrap.servers","localhost:9092");
+        kafkaProps.put("bootstrap.servers","localhost:29092");
 
         kafkaProps.put("key.serializer",
                 "org.apache.kafka.common.serialization.StringSerializer");

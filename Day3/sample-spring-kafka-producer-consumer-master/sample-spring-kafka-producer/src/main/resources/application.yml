@@ -1,0 +1,7 @@
+server:
+  port: 8180
+
+kafka:
+  producer:
+    bootstrap: localhost:29092
+    topic: workunits

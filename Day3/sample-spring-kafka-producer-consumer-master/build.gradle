@@ -1,0 +1,35 @@
+buildscript {
+    ext {
+        springBootVersion = '1.5.1.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+subprojects {
+
+    apply plugin: 'java'
+    apply plugin: 'org.springframework.boot'
+
+    repositories {
+        mavenCentral()
+        jcenter()
+        maven {
+            url 'https://repo.spring.io/libs-snapshot'
+        }
+    }
+
+    dependencies {
+        implementation "org.apache.kafka:kafka-clients:0.10.2.0"
+        implementation "org.springframework.kafka:spring-kafka:1.2.2.RELEASE"
+        implementation('org.springframework.boot:spring-boot-starter-web')
+        implementation 'com.google.guava:guava:20.0'
+        testImplementation('org.springframework.boot:spring-boot-starter-test')
+        testImplementation "org.springframework.kafka:spring-kafka-test:1.2.2.RELEASE"
+    }
+
+}

@@ -1,1 +1,62 @@
-s no;Kafka Streams;description;Reference;org.apache.kafka.streams;;https://kafka.apache.org/23/javadoc/index.html?org/apache/kafka/streams/KafkaStreams.html;org.apache.kafka.streams.errors;;https://javadoc.io/doc/org.apache.kafka/kafka-streams/latest/index.html;org.apache.kafka.streams.kstream;Kstream, Ktable Interfaces;;org.apache.kafka.streams.processor;;Search - kstream joiner, ktable;org.apache.kafka.streams.processor.api;;https://github.com/search?q=+implements+ValueJoiner&type=code;org.apache.kafka.streams.query;;https://github.com/sgenlecroyant/Kafka_streams-The_Big_Data_Move/tree/2bae8b7c970d994a9c1053c597d31e197bbbf3c9;org.apache.kafka.streams.state;;https://github.com/ReDestroyDeR/E-Store-Otus-Final/tree/25c61fe7005a9129873eff7acc063d2734449ccb;;;https://github.com/OtusTeam/OTUS-Kafka/tree/58855b086daf14c6216c62868cfc8be4e5edc940;;;https://github.com/hongyusu/bigdata_etl/tree/cc28c19beb2b5521f798974ed6c49b755a182ac4;;;https://github.com/Luca-Ferrera/Parallel-MinTopK-KStream/tree/57a77a2e84158806c952366cd15fbe925275de9fKstream;Interfaces;Classes;Enums;Aggregator;Branched;EmitStrategy.StrategyType;BranchedKStream;Consumed;Materialized.StoreType;CogroupedKStream;ForeachProcessor;;EmitStrategy;Grouped;;ForeachAction;Joined;;GlobalKTable;JoinWindows;;Initializer;Materialized;;KeyValueMapper;Named;;KGroupedStream;Printed;;KGroupedTable;Produced;;KStream;Repartitioned;;KTable;SessionWindowedDeserializer;;Merger;SessionWindowedSerializer;;Predicate;SessionWindows;;Reducer;SlidingWindows;;SessionWindowedCogroupedKStream;StreamJoined;;SessionWindowedKStream;TableJoined;;Suppressed;TimeWindowedDeserializer;;Suppressed.BufferConfig;TimeWindowedSerializer;;Suppressed.EagerBufferConfig;TimeWindows;;Suppressed.StrictBufferConfig;UnlimitedWindows;;TimeWindowedCogroupedKStream;Window;;TimeWindowedKStream;Windowed;;Transformer;WindowedSerdes;;TransformerSupplier;WindowedSerdes.SessionWindowedSerde;;ValueJoiner;WindowedSerdes.TimeWindowedSerde;;ValueJoinerWithKey;Windows;;ValueMapper;;;ValueMapperWithKey;;;ValueTransformer;;;ValueTransformerSupplier;;;ValueTransformerWithKey;;;ValueTransformerWithKeySupplier;;
+s no;Kafka Streams;description;Reference
+;org.apache.kafka.streams;;https://kafka.apache.org/23/javadoc/index.html?org/apache/kafka/streams/KafkaStreams.html
+;org.apache.kafka.streams.errors;;https://javadoc.io/doc/org.apache.kafka/kafka-streams/latest/index.html
+;org.apache.kafka.streams.kstream;Kstream, Ktable Interfaces;
+;org.apache.kafka.streams.processor;;Search - kstream joiner, ktable
+;org.apache.kafka.streams.processor.api;;https://github.com/search?q=+implements+ValueJoiner&type=code
+;org.apache.kafka.streams.query;;https://github.com/sgenlecroyant/Kafka_streams-The_Big_Data_Move/tree/2bae8b7c970d994a9c1053c597d31e197bbbf3c9
+;org.apache.kafka.streams.state;;https://github.com/ReDestroyDeR/E-Store-Otus-Final/tree/25c61fe7005a9129873eff7acc063d2734449ccb
+;;;https://github.com/OtusTeam/OTUS-Kafka/tree/58855b086daf14c6216c62868cfc8be4e5edc940
+;;;https://github.com/hongyusu/bigdata_etl/tree/cc28c19beb2b5521f798974ed6c49b755a182ac4
+;;;https://github.com/Luca-Ferrera/Parallel-MinTopK-KStream/tree/57a77a2e84158806c952366cd15fbe925275de9f
+Kstream;Interfaces;Classes;Enums
+;Aggregator;Branched;EmitStrategy.StrategyType
+;BranchedKStream;Consumed;Materialized.StoreType
+;CogroupedKStream;ForeachProcessor;
+;EmitStrategy;Grouped;
+;ForeachAction;Joined;
+;GlobalKTable;JoinWindows;
+;Initializer;Materialized;
+;KeyValueMapper;Named;
+;KGroupedStream;Printed;
+;KGroupedTable;Produced;
+;KStream;Repartitioned;
+;KTable;SessionWindowedDeserializer;
+;Merger;SessionWindowedSerializer;
+;Predicate;SessionWindows;
+;Reducer;SlidingWindows;
+;SessionWindowedCogroupedKStream;StreamJoined;
+;SessionWindowedKStream;TableJoined;
+;Suppressed;TimeWindowedDeserializer;
+;Suppressed.BufferConfig;TimeWindowedSerializer;
+;Suppressed.EagerBufferConfig;TimeWindows;
+;Suppressed.StrictBufferConfig;UnlimitedWindows;
+;TimeWindowedCogroupedKStream;Window;
+;TimeWindowedKStream;Windowed;
+;Transformer;WindowedSerdes;
+;TransformerSupplier;WindowedSerdes.SessionWindowedSerde;
+;ValueJoiner;WindowedSerdes.TimeWindowedSerde;
+;ValueJoinerWithKey;Windows;
+;ValueMapper;;
+;ValueMapperWithKey;;
+;ValueTransformer;;
+;ValueTransformerSupplier;;
+;ValueTransformerWithKey;;
+;ValueTransformerWithKeySupplier;;
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
