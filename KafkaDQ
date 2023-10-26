@@ -1,0 +1,9 @@
+Kafka Data Quality Control
+Kafka Docker Images Python
+https://github.com/LaPetiteSouris/KuronoSoshiki/tree/master
+This is the implementation of my small blogpost: To stream or to not stream. That is a question..
+
+Inspired by the article written here Building A Streaming Fraud Detection System With Kafka And Python
+
+The codebase for Kafka/Zookeeper stack ithes taken from the same blog post, as the author has done a brilliant work of puting the whole Kafka stack togheter in docker-compse. Many thanks to this tremendous effort, which allows my work to be implemented much easier.
+
