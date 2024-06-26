@@ -1,0 +1,1 @@
+confluent-kafka==2.3.0 ; python_version >= "3.10" and python_version < "4"
